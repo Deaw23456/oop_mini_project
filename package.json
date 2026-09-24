@@ -1,0 +1,14 @@
+{
+  "name": "oop-shop",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "node scripts/dev-backend.cjs",
+    "dev:frontend": "cd frontend && npm run dev",
+    "clean": "cd frontend && rm -rf .nuxt .output node_modules/.cache",
+    "postinstall": "npm --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
