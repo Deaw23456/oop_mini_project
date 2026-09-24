@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div class="flex items-center gap-3">
           <div>
-            <h1 class="text-xl font-bold leading-tight">Shop OOP Management System</h1>
+            <h1 class="text-xl font-bold leading-tight">Shop Management System</h1>
             <p class="text-xs text-indigo-200">Vue.js + Nuxt.js demo covering all 4 OOP principles</p>
           </div>
         </div>
